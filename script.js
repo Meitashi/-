@@ -1,7 +1,6 @@
 const result = document.querySelector(".result");
 const coin = document.querySelector(".coin");
 const button = document.querySelector("button");
-let animation = false;
 
 button.addEventListener("click", toss);
 
