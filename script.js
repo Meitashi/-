@@ -7,9 +7,9 @@ button.addEventListener("click", toss);
 function toss(){
     let random = Math.floor(Math.random() * 2);
     result.innerHTML = "";  
-    coin.style.backgroundImage =`url(/coin-flip-30.gif)`
+    coin.style.backgroundImage =`url(coin-flip-30.gif)`
     setTimeout(() => {
-        coin.style.backgroundImage =`url(/coin-flip-30.png)`
+        coin.style.backgroundImage =`url(coin-flip-30.png)`
         if(random == 0){
             result.innerHTML = "Решка";
         }else{
