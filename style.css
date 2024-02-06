@@ -56,6 +56,6 @@ body{
     height: 400px;
     border-radius: 50%;
     background-color: gold;
-    background-image: url("/coin-flip-30.png");
+    background-image: url("coin-flip-30.png");
     background-size: cover;
 }
